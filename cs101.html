@@ -22,17 +22,17 @@
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="./cs101/cs101_files/bootstrap.sandstone.min.css" type="text/css">
-    <link href="./cs101/cs101_files/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./cs101/theme/bootstrap.sandstone.min.css" type="text/css">
+    <link href="./cs101/theme/font-awesome.min.css" rel="stylesheet">
 
-    <link href="./cs101/cs101_files/monokai.css" rel="stylesheet">
-    <link rel="stylesheet" href="./cs101/cs101_files/style.css" type="text/css">
+    <link href="./cs101/theme/monokai.css" rel="stylesheet">
+    <link rel="stylesheet" href="./cs101/theme/style.css" type="text/css">
 
 
 </head>
 <body>
 <!-- <script src="./theme/js/jquery.min.js"></script> -->
-<script type="text/javascript" async="" src="./cs101/cs101_files/ga.js"></script><script src="./cs101/cs101_files/jquery.min.js"></script>
+<script type="text/javascript" async="" src="./cs101/theme/ga.js"></script><script src="./cs101/theme/jquery.min.js"></script>
 <style>
 #banner{
     background-image:url("images/banner.jpg");
@@ -60,25 +60,18 @@ body {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://abelgo.cn/cs101" class="navbar-brand">
-<img src="./cs101/cs101_files/logo.png" width="32"> NUC CS101</a>
+            <a href="http://abelgo.cn/cs101" class="navbar-brand"><img src="./cs101/images/logo.jpg" width="150"> NUC CS101</a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-<!--
-                         <li><a href="http://15721.courses.cs.cmu.edu/spring2016/project-showcase.html">
-                             Project Showcase
-                          </a></li>
--->
-                         <li><a href="schedule.html">
+                         <li><a href="cs101/schedule.html">
                              Schedule
                           </a></li>
-                         <li><a href="syllabus.html">
+                         <li><a href="cs101/syllabus.html">
                              Syllabus
                           </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-<!--                <a class="btn btn-default navbar-btn" title="Youtube" onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/www.youtube.com&#39;);" href="https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O"><i class="fa fa-youtube"></i> Youtube</a>-->
                 <a class="btn btn-default navbar-btn" title="Piazza" onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/piazza.com&#39;);" href="http://piazza.com/north_university_of_china/fall2017/cs101"><i class="fa fa-comments-o"></i> Piazza</a>
 <!--                 <li><a href="./archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li> -->
             </ul>
@@ -92,9 +85,7 @@ body {
         <div class="col-lg-12">
 
 <section class="well well-sm course-info">
-    <p>This is an introduction course to computer science and is offered to teach you Think as Computer Scientists. We will discuss a number of concepts pertaining to computer science. The course includes lectures and quizzes, final exams, optional additional exercises with solutions, and other readings and resources. In addition, there will be one project to help you to get familiar with computer science.<br>
-
-    CS101 is aimed at students with little or no programming experience. It is to provide students with an understanding of the role computation can play in solving problems. It also aims to help students, regardless of their major, to feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class will use the Python™ programming language.</p>
+    <p>This is an introduction course to computer science for students with little or no programming experience. In general, we are going to teach you to <a href="http://interactivepython.org/runestone/static/thinkcspy/index.html"><b>Think as Computer Scientists</b></a>. To achieve this grand goal, we will discuss a set of essential topics in computer science and show you how is a computer scientist acted in problem solving. It also aims to help students, regardless of their major, to feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals. The class will use the Python programming language. The course includes lectures and quizzes, final exams, optional additional exercises with solutions, and other readings and resources. In addition, there will be one project to help you to get familiar with computer science.</p>
     <div class="row">
         <div class="col-sm-6 course-info-box">
             <ul class="list-group list-group-flush">
@@ -102,8 +93,8 @@ body {
                     <ul class="list-group course-info-list">
                         <li> <b>Instructor:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/http://abelgo.cn/&#39;);" href="http://abelgo.cn">Qingsong Guo</a>
                         </li><li> <b>Time:</b> Tue 8:00 - 9:45 AM, Thu 4:30 - 6:20 PM
-                        </li><li> <b>Location:</b> Tue 11201T, Thu 14404Z </a>
-                        </li><li> <b>On-line Discussion:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/piazza.com&#39;);" href="https://piazza.com/class/j4v3xaibx9n6my">Piazza</a>
+                        </li><li> <b>Classrooms:</b> Tue 11201T, Thu 14404Z
+                        </li><li> <b>Course Managent:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/piazza.com&#39;);" href="https://piazza.com/class/j4v3xaibx9n6my">Piazza</a>
                     </li></ul>
                 </li>
             </ul>
@@ -112,25 +103,54 @@ body {
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><h4><i class="fa fa-graduation-cap fa-lg"></i><span class="icon-label">Instructor Infomation</span></h4>
                     <ul class="list-group course-info-list">
-                            <li> <b>Email:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/http://abelgo.cn/&#39;);">qingsongg@gmail.com</a></li>
-                            <li> <b>Course Site:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/http://abelgo.cn/CS101&#39;);" href="http://abelgo.cn/CS101">http://abelgo.cn/CS101</a></li>
+                        <li> <b>Email:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/http://abelgo.cn/&#39;);">qingsongg@gmail.com</a></li>
+                        <li> <b>Course Site:</b> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/http://abelgo.cn/CS101&#39;);" href="http://abelgo.cn/CS101">http://abelgo.cn/CS101</a></li>
+                        <li> <b>Office:</b> <a>10-00, No.11 Building</a></li>
+                        <li> <b>Office Hours:</b> <a>7:00 PM - 10:00 PM, Thur</a></li>
                     </ul>
                 </li>
             </ul>
         </div>
-<!--
-        <div class="col-sm-4 course-info-box">
+    </div>
+</section>
+            <section class="well well-sm course-info">
+    <p>The textbooks used in CS101:
+        <ul>
+        <li>Computer Science: An Overview. 12th Edition. Boston: McGraw-Hill.</li>
+        <li>Think Python: How to Think Like a Computer Scientist. 2nd Revised Edition. ISBN: 1400075998.</li>
+        <li>Turing’s Cathedral: The Origins of the Digital Universe. 1st Edition. Vintage. ISBN: 1491939362.</li>
+        <li>A History of Silicon Valley: The Greatest Creation of Wealth in the History of the Planet. 2nd Edition. ISBN: 1490330402.</li>
+        </ul>
+    </p>
+    <div class="row">
+        <div class="col-sm-3 course-info-box">
             <ul class="list-group list-group-flush">
-                <li class="list-group-item"><h4><i class="fa fa-heart fa-lg"></i><span class="icon-label">Acknowledgements</span></h4>
-                    <p class="acknowledgements">Special thanks to the following companies for equipment donations and/or support for course development.</p>
-                    <ul class="list-group course-info-list sponsors">
-                            <li> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/memsql.com&#39;);" href="http://memsql.com/" title="MemSQL (Sponsor)"><img src="./cs101_files/memsql.png"></a></li>
-                            <li> <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/micron.com&#39;);" href="http://micron.com/" title="Micron (Sponsor)"><img src="./cs101_files/micron.png"></a></li>
-                    </ul>
+<!--                <li class="list-group-item"><h5><span class="icon-label">Computer Science: An Overview. 12th Edition.</span></h5>-->
+                 <img src="./cs101/images/Brookshear17.jpg" width="150" height="200">   
                 </li>
             </ul>
         </div>
--->
+        <div class="col-sm-3 course-info-box">
+            <ul class="list-group list-group-flush">
+<!--                <li class="list-group-item"><h5><span class="icon-label">Think Python: How to Think Like a Computer Scientist. 2nd Edition.</span></h5>-->
+                 <img src="./cs101/images/Downey15.jpg" width="150" height="200">   
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3 course-info-box">
+            <ul class="list-group list-group-flush">
+<!--                <li class="list-group-item"><h5><span class="icon-label">Turing’s Cathedral: The Origins of the Digital Universe. 1st Edition.</span></h5>-->
+                 <img src="./cs101/images/Dyson12.jpg" width="150" height="200">   
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-3 course-info-box">
+            <ul class="list-group list-group-flush">
+<!--                <li class="list-group-item"><h5><span class="icon-label"> A History of Silicon Valley: The Greatest Creation of Wealth in the History of the Planet. 2nd Edition</span></h5>-->
+                 <img src="./cs101/images/Rao13.jpg" width="150" height="200">   
+                </li>
+            </ul>
+        </div>
     </div>
 </section>
 
@@ -146,7 +166,7 @@ body {
       
       <div class="row">
          <div class="col-xs-6">
-<!--            <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/db.cs.cmu.edu&#39;);" href="http://db.cs.cmu.edu/" title="Carnegie Mellon Database Group"><img src="./cs101_files/cmu-db-group.png"></a>-->
+<!--            <a onclick="javascript:pageTracker._trackPageview(&#39;/outgoing/db.cs.cmu.edu&#39;);" href="http://db.cs.cmu.edu/" title="Carnegie Mellon Database Group"><img src="./theme/cmu-db-group.png"></a>-->
             
          </div>
          <div class="col-xs-6">
@@ -159,14 +179,14 @@ body {
    </div>
 </footer>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="./cs101/cs101_files/bootstrap.min.js"></script>
+<script src="./cs101/theme/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="./cs101/cs101_files/respond.min.js"></script>
+<script src="./cs101/theme/respond.min.js"></script>
 
 <!-- Fix scrolling issues to internal HREFs that get positioned behind navbar -->
 <!-- http://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header -->
-<script src="./cs101/cs101_files/href_scroll.js"></script>
+<script src="./cs101/theme/href_scroll.js"></script>
 
     <!-- Google Analytics -->
     <script type="text/javascript">
